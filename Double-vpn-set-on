@@ -1,0 +1,9 @@
+Устанавливаем openconnect
+sudo apt install openconnect
+Далее подключаемся к нужному шлюзу
+sudo openconnect \
+  --protocol anyconnect \
+  --user Baev.A.A@sbertech.ru \
+  --authgroup "SBT byod PWD+OTP_IAM" \
+  --http-auth=Basic \
+  v-byod-pwd.sbertech.ru
