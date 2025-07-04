@@ -6,4 +6,5 @@ sudo openconnect \
   --user Baev.A.A@sbertech.ru \
   --authgroup "SBT byod PWD+OTP_IAM" \
   --http-auth=Basic \
+  --background \
   v-byod-pwd.sbertech.ru
